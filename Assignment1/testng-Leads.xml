@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite-Leads" verbose="5">
+	<parameter name="URL" value="http://leaftaps.com/opentaps/"></parameter>
+	<parameter name="BROWSER_NAME" value="chrome"></parameter>
+
+	<test name="CreateLeadTest">
+		<classes>
+			<class name="testngpractice.DuplicateLead" />
+
+		</classes>
+	</test>
+	<test name="EditLeadTest">
+		<classes>
+			<class name="testngpractice.EditLead" />
+
+		</classes>
+	</test>
+
+	<test name="MergeLeadTest">
+		<classes>
+			<class name="testngpractice.MergeLead" />
+
+		</classes>
+	</test>
+
+	<test name="DuplicateLeadTest">
+		<classes>
+			<class name="testngpractice.DuplicateLead" />
+
+		</classes>
+	</test>
+
+	<test name="DeleteLeadTest">
+		<classes>
+			<class name="testngpractice.DeleteLead" />
+
+		</classes>
+	</test>
+</suite> <!-- Suite-Leads -->
+
+
+
+			
+			
+			
