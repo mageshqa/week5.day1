@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite-Attributes">
+	<test name="TC01DragDrop">
+	<parameter name="URL" value="https://jqueryui.com/draggable"></parameter>
+	<parameter name="Browser" value="chrome"></parameter>
+			<classes>
+			<class name="week5.day1.TC01DragDrop" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TC02Drop">
+	<parameter name="URL" value="https://jqueryui.com/droppable/"></parameter>
+	<parameter name="Browser" value="firefox"></parameter>
+		<classes>
+			<class name="week5.day1.TC02Drop" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TC03Erail">
+	<parameter name="URL" value="https://erail.in/"></parameter>
+	<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="week5.day1.TC03Erail" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
